@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="css/config.css">
+    <link rel="stylesheet" href="css/header/header_desing.css">
+    <link rel="stylesheet" href="css/header/header_posicionamento.css">
+    <link rel="stylesheet" href="css/main/main_part1.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <!-- css -->
+    <!-- js -->
+    <script src="js/btn.js" defer></script>
+    <!-- js -->
+    <title>Contato</title>
+</head>
+
+<body>
+    <header class="corpo_header">
+        <!-- aqui vai ser so o header -->
+        <div class="header01">
+            <img src="../../assents/img_header/logo.png" alt="logo" id="logo_header">
+        </div>
+        <!-- aqui vai ser o dropdown -->
+        <div class="header02">
+            <button id="btn_background">
+                <!-- para fazer o hamburgue sem ir para o css ou sem precisar do de uma img -->
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20" class="svg_burgue"></rect>
+                    <rect y="30" width="100" height="20" class="svg_burgue"></rect>
+                    <rect y="60" width="100" height="20" class="svg_burgue"></rect>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <article id="dropExterno">
+        <div id="header02_dropdown" class="header02_dropdown">
+            <button id="fechar">X</button>
+            <ul class="header02_dropdown">
+                <li><a href="../../index.html" class="link_dropdown">Home</a></li>
+                <li><a href="../sobreNos/index.html" class="link_dropdown">Sobre nòs</a></li>
+            </ul>
+        </div>
+    </article>
+    <main>
+        <div class="txt_regular">
+            <h2>Entre em Contato!!</h2>
+        </div>
+        <div class="txt_regular02">
+            <h3>Caso você tiver alguma dúvida ou quiser entrar em contato conosco, use as informações abaixo:</h3>
+            <h4>Email:<strong>canaisdarkerai@gmail.com</strong></h4>
+            <h4>Telefone: <strong>(68) 98404-9753</strong></h4>
+        </div>
+        <!-- divulgação -->
+        <div class="txt_regular">
+            <h2>Nós envie oque você deseja!!</h2>
+        </div>
+        <div class="txt_infor">
+            <h3>Preenche o nosso formulário, é de grande ajuda a sua contribuição, agradecemos a preferencia.</h3>
+        </div>
+        <div class="form">
+            <div class="form_01">
+                <form action="formulario" class="form_dentro_01">
+                    <label>Nome</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input type="email">
+                    <label>Telefone</label>
+                    <input type="number">
+                    <label>Assunto</label>
+                    <select>
+                        <option value="1">Assunto</option>
+                        <option value="2">Noticía</option>
+                        <option value="3">Suporte</option>
+                        <option value="4">Outros</option>
+                    </select>
+                    <label>Texto</label>
+                    <textarea id="txt_textarea" required></textarea>
+                    <input type="button" value="Enviar" id="btn_form">
+                </form>
+            </div>
+            <div class="form_02">
+                <h2>Acesse nossas redes sociais</h2>
+            </div>
+            <div class="form_02_link">
+                <a href="#" class="a_form02"><img src="./assents/main/youtube.png" alt="youtube"
+                        class="a_form02_img"></a>
+                <a href="#" class="a_form02"><img src="./assents/main/tiktok.png" alt="tiktok" class="a_form02_img"></a>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <h4 id="text_footer">© 2025 Informação Em Dia. Todos os direitos reservados.</h4>
+    </footer>
+</body>
+
+</html>

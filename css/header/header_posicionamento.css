@@ -1,0 +1,18 @@
+.corpo_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header01{
+    display: flex;
+}
+/* dropdonw */
+#header02_dropdown{
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+#dropExterno {
+    display: flex;
+    justify-content: flex-end;
+}

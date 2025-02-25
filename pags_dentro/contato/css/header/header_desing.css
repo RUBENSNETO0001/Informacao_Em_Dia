@@ -1,0 +1,63 @@
+.corpo_header{
+    background-color: rgb(22, 22, 22);
+    color: #ffffff;
+}
+#logo_header{
+    width: 20%;
+}
+/* btn */
+#btn_background{
+    background-color: rgb(255 113 0);
+    border: none;
+    border-radius: 12px;
+    transition: 1s;
+}
+#btn_background:hover{
+    background-color: rgb(0, 0, 0);
+    fill: rgb(255 113 0);
+    filter: drop-shadow(0px 0px 12px rgb(255 113 0));
+}
+#btn_background:active{
+    background-color: rgb(143, 85, 58);
+    fill: rgb(185, 152, 125);
+}
+/* btn */
+/* drop */
+#header02_dropdown {
+   background-color: black;
+}
+.header02_dropdown {
+    border: solid 1px #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 13px 12px;
+}
+ul li{
+    padding: 10px 35px 20px 0px;
+    list-style: none;
+}
+/* linkes do drop */
+.link_dropdown{
+    color: #ffffff;
+    text-decoration: none;
+}
+.link_dropdown:hover{
+    color: rgb(255 113 0);
+}
+/* o X */
+#fechar{
+    border: none;
+    background-color: black;
+    color: rgb(255 113 0);
+    position: relative;
+    margin-left: 10px;
+    font-size: small;
+    transition: 1s;
+}
+#fechar:hover{
+    color: #ffffff;
+    border: 1px solid rgb(255 113 0);
+    border-radius: 12px;
+}
+/* drop */

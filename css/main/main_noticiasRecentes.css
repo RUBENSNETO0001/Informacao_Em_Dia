@@ -1,0 +1,10 @@
+
+#text_linha01{
+    position: relative;
+    margin-left: 15%;
+}
+.hr_text{
+    width: 85%;
+    height: 10px;
+    background-color: rgb(255 113 0);
+}

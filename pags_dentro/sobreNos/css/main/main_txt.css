@@ -1,0 +1,10 @@
+.txt_linha {
+    margin-top: 5%;
+    display: grid;
+    justify-items: center;
+}
+
+.txt_linha02 {
+    border-bottom: 5px solid rgb(255 113 0);
+    width: 80%;
+}

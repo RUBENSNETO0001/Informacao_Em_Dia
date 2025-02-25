@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- extesão -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/config_geral.css">
+    <link rel="stylesheet" href="css/header/header_desing.css">
+    <link rel="stylesheet" href="css/header/header_posicionamento.css">
+    <link rel="stylesheet" href="css/main/main_carrosel.css">
+    <link rel="stylesheet" href="css/main/main_noticiasRecentes.css">
+    <link rel="stylesheet" href="css/main/main_linkpages.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <!-- css -->
+    <!-- js -->
+    <script src="js/btn_dropwn.js" defer></script>
+    <script src="js/links/btnCaixa01.js" defer></script>
+    <script src="js/carrosel.js" defer></script>
+    <!-- js -->
+    <title>informação em dia</title>
+</head>
+
+<body>
+    <header class="corpo_header">
+        <!-- aqui vai ser so o header -->
+        <div class="header01">
+            <img src="assents/img_header/logo.png" alt="logo" id="logo_header">
+        </div>
+        <!-- aqui vai ser o dropdown -->
+        <div class="header02">
+            <button id="btn_background">
+                <!-- para fazer o hamburgue sem ir para o css ou sem precisar do de uma img -->
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20" class="svg_burgue"></rect>
+                    <rect y="30" width="100" height="20" class="svg_burgue"></rect>
+                    <rect y="60" width="100" height="20" class="svg_burgue"></rect>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <!-- aqui vou ta fazer as modicações quando o usuario fazer alteração!! -->
+    <article id="dropExterno">
+        <div id="header02_dropdown" class="header02_dropdown">
+            <button id="fechar">X</button>
+            <ul class="header02_dropdown">
+                <li><a href="./pags_dentro/contato/index.html" class="link_dropdown">Contato</a></li>
+                <li><a href="./pags_dentro/sobreNos/index.html" class="link_dropdown">Sobre nòs</a></li>
+            </ul>
+        </div>
+    </article>
+    <!-- aqui vou ta fazer as modicações quando o usuario fazer alteração!! -->
+    <!-- main -->
+    <main>
+        <!-- carrosel -->
+        <div class="slideshow-container">
+            <!-- escopo 1 -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="assents/main_carrosel/fortnite.png" style="width:100%">
+              <div class="text">Instabilidade nos servidores de fortinite</div>
+            </div>
+            <!-- escopo 2 -->
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="assents/main_carrosel/australia-1.png" style="width:100%">
+              <div class="text">Veto de redes sociais para menores na Austrália</div>
+            </div>
+            <!-- escopo 3 -->
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="assents/main_carrosel/estudarcomia4.png" style="width:100%">
+              <div class="text">Senador lê relatório de projeto para regular IA</div>
+            </div>
+            <!-- Ir para tras ou frente -->
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        <!-- carrosel -->
+        <!-- linha e text -->
+        <div id="text_linha01">
+            <h1 id="txt_noticias">Noticias Recentes</h1>
+            <hr class="hr_text">
+        </div>
+        <!-- linha e text -->
+        <!-- tabela complicada de se moldar -->
+        <div class="caixaLink_01">
+            <div class="imgLinker">
+                <img src="assents/main_janelas/noticia_pessoas_usando_celular.png" alt="mulher no celular"
+                    id="img_link">
+            </div>
+            <div class="txt_img">
+                <button id="btn_linkPag" class="btn_linkPag">Ler mais</button>
+                <h1 id="txt_linkPag">Como ativar proteção contra roubo ...</h1>
+            </div>
+        </div>
+        <!-- caixa02 -->
+        <div class="caixaLink_01">
+            <div class="imgLinker">
+                <img src="assents/main_janelas/noticia_nubank.png" alt="banco nubank" id="img_link">
+            </div>
+            <div class="txt_img">
+                <button id="btn_linkPag_02" class="btn_linkPag">Ler mais</button>
+                <h1 id="txt_linkPag">Nubank APK: saiba tudo sobre o ...</h1>
+            </div>
+        </div>
+        <!-- caixa03 -->
+        <div class="caixaLink_01">
+            <div class="imgLinker">
+                <img src="assents/main_janelas/celulares.jpg" alt="banco nubank" id="img_link">
+            </div>
+            <div class="txt_img">
+                <button id="btn_linkPag_03" class="btn_linkPag">Ler mais</button>
+                <h1 id="txt_linkPag">Nubank APK: saiba tudo sobre o ...</h1>
+            </div>
+        </div>
+    </main>
+    <!-- main -->
+    <footer id="footer">
+        <h4 id="text_footer">© 2025 Informação Em Dia. Todos os direitos reservados.</h4>
+    </footer>
+</body>
+
+</html>
