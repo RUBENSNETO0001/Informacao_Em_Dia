@@ -1,0 +1,42 @@
+.txtNoticia {
+    margin-top: 2%;
+    display: grid;
+    justify-content: center;
+}
+
+#txt_noticia {
+    border-bottom: 5px solid rgb(255 113 0);
+}
+
+.descricao {
+    display: grid;
+    justify-content: center;
+    opacity: 0.4;
+    padding: 23px 0px 23px 0px;
+}
+
+.txt_da_noticia {
+    display: grid;
+    justify-items: center;
+}
+
+.txt_part1 {
+    width: 80%;
+    text-align: justify;
+}
+
+.txt_part1 p {
+    text-indent: 30px;
+}
+
+#img01 {
+    width: 50%;
+    border-radius: 30px;
+    transition: 2s;
+    padding: 20px;
+}
+
+#img01:hover {
+    border-radius: 50px;
+    filter: drop-shadow(0px 0px 20px rgb(255 113 0));
+}
